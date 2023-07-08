@@ -9,8 +9,8 @@ from nltk.stem import PorterStemmer
 nltk.download('stopwords')
 warnings.filterwarnings('ignore')
 
-tfidf_loaded = joblib.load(r"C:\Users\srima\Downloads\fake_news_detection\tf-idf.joblib")
-model_loaded = joblib.load(r"C:\Users\srima\Downloads\fake_news_detection\model.joblib")
+tfidf_loaded = joblib.load("tf-idf.joblib")
+model_loaded = joblib.load("model.joblib")
 
 ps = PorterStemmer()
 
